@@ -1,1 +1,2 @@
-localhost ansible_connection=local
+[dockerserver]
+10.100.102.102  ansible_user=nimo
