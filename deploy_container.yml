@@ -3,7 +3,7 @@
   become: true
   gather_facts: false
   tasks:
-    - name: Create hello_world container
+    - name: Deploy hello_world container
       docker_container:
         name: hello-world
         image: hello_world
