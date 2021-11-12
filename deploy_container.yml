@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Create DB container
+      docker_container:
+        name: hello-world-container
+        image: hello_world
+        state: started
+        detach: yes
+        volumes:
+            - /root/container-data:/data
