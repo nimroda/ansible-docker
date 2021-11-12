@@ -1,2 +1,2 @@
 [dockerserver]
-10.100.102.102  ansible_user=nimo
+10.100.102.102  ansible_user=jenkins
