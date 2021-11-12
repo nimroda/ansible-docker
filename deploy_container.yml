@@ -9,5 +9,6 @@
         image: hello_world
         state: started
         detach: yes
+        auto_remove: yes
         volumes:
             - /root/container-data:/data
