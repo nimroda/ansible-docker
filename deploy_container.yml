@@ -1,11 +1,11 @@
 ---
-- hosts: localhost
+- hosts: dockerserver
   become: true
   gather_facts: false
   tasks:
-    - name: Create DB container
+    - name: Create hello_world container
       docker_container:
-        name: hello-world-container
+        name: hello-world
         image: hello_world
         state: started
         detach: yes
