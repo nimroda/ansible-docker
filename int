@@ -1,5 +1,5 @@
 [dockerserver]
-10.100.102.102  ansible_user=jenkins
+10.100.102.102  ansible_user=jenkins ansible_ssh_pass=jenkins
 
 [dockerserver:vars]
 ansible_python_interpreter=/bin/python3
